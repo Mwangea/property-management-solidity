@@ -1,0 +1,147 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rent",
+						"type": "uint256"
+					}
+				],
+				"name": "createProperty",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "evictTenant",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tenant",
+						"type": "address"
+					}
+				],
+				"name": "leaseProperty",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "payRent",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "properties",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tenant",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rent",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "leaseStart",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "leaseEnd",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/property.sol": "PropertyManagement"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/property.sol": {
+			"keccak256": "0x2832fd555fd4985858f6c7f173f5aa9cd7571c53b065e57053f1e968f518bdc3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6fd41d6232730d5e17a22516a3e2613ce46081d421563975c503a4f19796d061",
+				"dweb:/ipfs/QmTHPzf7RxnZshSDhhC6xNuuvicB4MV4WUVQ6JHz9TnjC8"
+			]
+		}
+	},
+	"version": 1
+}
